@@ -41,19 +41,19 @@ body {
   animation: upDown ease-in-out infinite 4s alternate;
 }
 .Toupeira img.top1 {
-  animation: upDown ease-in-out infinite 20s alternate;
+  animation: upDown ease-in-out infinite 12s alternate;
 }
 .Toupeira img.top2 {
   animation: upDown ease-in-out infinite 10s alternate;
 }
 .Toupeira img.top3 {
-  animation: upDown ease-in-out infinite 25s alternate;
+  animation: upDown ease-in-out infinite 7s alternate;
 }
 .Toupeira img.top4 {
   animation: upDown ease-in-out infinite 8s alternate;
 }
 .Toupeira img.top5 {
-  animation: upDown ease-in-out infinite 35s alternate;
+  animation: upDown ease-in-out infinite 8s alternate;
 }
 .Toupeira img.top6 {
   animation: upDown ease-in-out infinite 15s alternate;
@@ -62,16 +62,16 @@ body {
   animation: upDown ease-in-out infinite 9s alternate;
 }
 .Toupeira img.top8 {
-  animation: upDown ease-in-out infinite 16s alternate;
+  animation: upDown ease-in-out infinite 10s alternate;
 }
 .Toupeira img.top9 {
   animation: upDown ease-in-out infinite 6s alternate;
 }
 .Toupeira img.top10 {
-  animation: upDown ease-in-out infinite 11s alternate;
+  animation: upDown ease-in-out infinite 10s alternate;
 }
 .Toupeira img.top11 {
-  animation: upDown ease-in-out infinite 24s alternate;
+  animation: upDown ease-in-out infinite 4s alternate;
 }
 
 @keyframes upDown {
