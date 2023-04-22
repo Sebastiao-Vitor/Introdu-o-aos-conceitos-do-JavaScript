@@ -9,13 +9,15 @@
 body {
   background-image: url(assets/fundo.svg);
   background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
 }
 
 .Toupeiras {
   display: grid;
-  margin: 25rem 10rem;
+  margin: 25rem auto;
+  padding: 0 2rem;
   grid-template-columns: auto auto auto auto;
-  position: absolute;
   gap: 8rem;
 }
 
@@ -72,7 +74,7 @@ body {
   animation: upDown ease-in-out infinite 24s alternate;
 }
 
-@keyframe upDown {
+@keyframes upDown {
   0% {
     opacity: 1;
   }
