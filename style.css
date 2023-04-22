@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 62.5%; /* 1rem */
+}
+
+body {
+  background-image: url(assets/fundo.svg);
+  background-repeat: no-repeat;
+}
+
+.Toupeiras {
+  display: grid;
+  margin: 25rem 10rem;
+  grid-template-columns: auto auto auto auto;
+  position: absolute;
+  gap: 8rem;
+}
+
+.Toupeira {
+  position: relative;
+  width: 25rem;
+  height: 10rem;
+  margin: auto;
+}
+
+.Toupeira img {
+  position: absolute;
+  top: 0;
+  -webkit-transition: opacity 23s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out;
+  transition: opacity 3s ease-in-out;
+}
+
+.Toupeira img.top {
+  animation: upDown ease-in-out infinite 4s alternate;
+}
+.Toupeira img.top1 {
+  animation: upDown ease-in-out infinite 20s alternate;
+}
+.Toupeira img.top2 {
+  animation: upDown ease-in-out infinite 10s alternate;
+}
+.Toupeira img.top3 {
+  animation: upDown ease-in-out infinite 25s alternate;
+}
+.Toupeira img.top4 {
+  animation: upDown ease-in-out infinite 8s alternate;
+}
+.Toupeira img.top5 {
+  animation: upDown ease-in-out infinite 35s alternate;
+}
+.Toupeira img.top6 {
+  animation: upDown ease-in-out infinite 15s alternate;
+}
+.Toupeira img.top7 {
+  animation: upDown ease-in-out infinite 9s alternate;
+}
+.Toupeira img.top8 {
+  animation: upDown ease-in-out infinite 16s alternate;
+}
+.Toupeira img.top9 {
+  animation: upDown ease-in-out infinite 6s alternate;
+}
+.Toupeira img.top10 {
+  animation: upDown ease-in-out infinite 11s alternate;
+}
+.Toupeira img.top11 {
+  animation: upDown ease-in-out infinite 24s alternate;
+}
+
+@keyframe upDown {
+  0% {
+    opacity: 1;
+  }
+
+  17% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  92% {
+    opacity: 0;
+  }
+}
+
+.Toupeira img:nth-of-type(6) {
+  animation-delay: 6ms;
+}
